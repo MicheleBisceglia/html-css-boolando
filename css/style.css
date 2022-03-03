@@ -1,0 +1,32 @@
+/*Reset*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 4em auto;
+    border: 1px solid blue;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 2em;
+}
+.product {
+    display: inline-block;
+    position: relative;
+    width: 32%;
+    margin:0 2px ;
+    border: 2px solid blue;
+    vertical-align: top;
+}
+
+.product img {
+    width: 100%;
+    margin-left: 10px;
+    
+}
