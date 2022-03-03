@@ -53,4 +53,23 @@
 
 .line-through {
     text-decoration: line-through;
+    color: #eb0037;
 }
+
+#immagine .immagine2 {
+    display: none;
+    position: absolute;
+   
+}
+
+#immagine:hover .immagine1 {
+    display: none;
+}
+#immagine:hover .immagine2 {
+    display: inline-block;
+}
+
+.didascalia:hover > {
+    display: inline-block
+}
+
