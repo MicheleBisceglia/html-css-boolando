@@ -31,21 +31,21 @@
 .product .sales {
     background-color:#eb0037;
     position: absolute;
-    bottom: 110px;
+    bottom: 80px;
     left: 0px;
 }
 
 .product .label {
     background-color: #03895c;
     position: absolute;
-    bottom: 110px;
+    bottom: 80px;
     left: 40px;    
 }
 
 #label2 {
     background-color: #03895c;
     position: absolute;
-    bottom: 110px;
+    bottom: 80px;
     left: 0px;  
 }
 
@@ -66,9 +66,6 @@
     color: #eb0037;
 }
 
-.like {
-    padding-bottom: 40px;
-}
 .immagine .immagine2 {
     display: none;
 }
@@ -80,23 +77,6 @@
     display: inline-block;
 }
 
-.red {
-    display: none;
+.product:hover .heart {
+    color: #eb0037;
 }
-
-.like:hover .heart {
-    display: none;
-    }
-
-.like:hover .red{
-    background-color: white;
-    position: absolute;
-    right: 0%;
-    top: 10px;
-    font-size: 25px;
-    width: 25px;
-    text-align: center;
-    display: inline-block;
-    color: red;
-}
-
