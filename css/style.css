@@ -77,6 +77,6 @@
     display: inline-block;
 }
 
-.product:hover .heart {
+.heart:hover {
     color: #eb0037;
 }
